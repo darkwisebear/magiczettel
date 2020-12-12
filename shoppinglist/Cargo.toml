@@ -1,0 +1,17 @@
+[package]
+name = "shoppinglist"
+version = "0.1.0"
+authors = ["Markus Hosch <markus.hosch@gmx.net>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zettelwirtschaft = { path = "../zettelwirtschaft" }
+wasm-bindgen = "0.2"
+console_error_panic_hook = "0.1"
+js-sys = "0.3"
+
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = ["-Oz", "--enable-mutable-globals"]

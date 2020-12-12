@@ -1,0 +1,11 @@
+[package]
+name = "magiczettel"
+version = "0.1.0"
+authors = ["Markus Hosch <markus.hosch@gmx.net>"]
+edition = "2018"
+
+[dependencies]
+failure = "0.1"
+yaml-rust = "0.4"
+structopt = "0.3"
+zettelwirtschaft = { path = "../zettelwirtschaft" }

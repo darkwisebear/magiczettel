@@ -1,0 +1,7 @@
+div.fullwidth > textarea {
+    min-width: 100%;
+}
+
+li.list-group-item > ul.shoppinglist-items > li {
+    list-style: none;
+}

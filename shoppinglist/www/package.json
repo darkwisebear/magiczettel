@@ -1,0 +1,30 @@
+{
+  "name": "webshoppinglist",
+  "version": "0.1.0",
+  "description": "Generate your weekly shopping list based on things you need to buy",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkwisebear/magiczettel.git"
+  },
+  "keywords": [
+    "webassembly",
+    "wasm",
+    "rust",
+    "webpack"
+  ],
+  "author": "Markus Hosch <markus.hosch@gmx.net>",
+  "license": "(MIT OR Apache-2.0)",
+  "homepage": "https://github.com/darkwisebear/magiczettel",
+  "devDependencies": {
+    "shoppinglist": "file:../pkg",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "copy-webpack-plugin": "^5.0.0"
+  }
+}

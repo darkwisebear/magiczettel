@@ -1,0 +1,132 @@
+waren:
+  - name: Eier
+    alt-names:
+      - Ei
+
+  - name: Milch
+    default-amount:
+      millis: 1000
+
+  - name: Sahne
+    alt-names:
+      - Schlagsahne
+    default-amount:
+      millis: 200
+
+  - name: Brot
+
+  - name: Gurken
+    alt-names:
+      - Gurke
+
+  - name: Mayonnaise
+    alt-names:
+      - Mayo
+
+locations:
+  - name: Metzger
+    waren:
+      - Chorizo
+      - Aufbackleberkäs
+      - Leberkäs
+  - name: Supermarkt
+    waren:
+      - Maultaschen
+      - Nudeln
+      - Suppennudeln
+      - Hörnchennudeln
+      - Reis
+      - Risottoreis
+      - Jasminreis
+      - Milchreis
+      - Mehl
+      - Salz
+      - Zucker
+      - Cornflakes
+      - Haferflocken
+      - Kidneybohnen
+      - Dosentomaten
+      - Mais
+      - Essiggurken
+      - Ketchup
+      - Backerbsen
+      - Honig
+      - Nutella
+      - Nüsse
+      - Essig
+      - Balsamico
+      - Balsamico bianco
+      - Frittieröl
+      - Öl
+      - Milch
+      - Sahne
+      - Saure Sahne
+      - Creme fraice
+      - Backcamembert
+      - Mozzarella
+      - Gorgonzola
+      - Butter
+      - Margarine
+      - Tarteteig
+      - Blätterteig
+      - Erbsen
+      - Sauerkraut
+      - Mayonnaise
+      - Safran
+      - Paprika edelsüß
+      - Paprika scharf
+      - Gaskartusche
+  - name: Bäcker
+    waren:
+      - Brot
+      - Breze
+      - Semmel
+      - Laugensemmel
+      - Baguette
+  - name: Eiermann
+    waren:
+      - Eier
+      - Hühnerschlegel
+      - Hühnerbrust
+  - name: Früchte
+    waren:
+      - Spitzpaprika
+      - Äpfel
+      - Kartoffeln
+      - Birnen
+      - Paprika
+      - Zwiebeln
+      - Lauch
+      - Mehligkochende Kartoffeln
+      - Festkochende Kartoffeln
+      - Karotten
+      - Gurken
+      - Weintrauben
+      - Mandarinen
+      - Bananen
+      - Salat
+  - name: Käseladen
+    waren:
+      - Hartkäse
+      - Weichkäse
+      - Geriebener Käse
+      - Parmesan
+      - Ziegenkäserolle
+
+dishes:
+  - name: Sahnehühnchen
+    ingredients:
+      - 400g Hähnchenbrust
+      - 300g Sahne
+      - 150g Reis
+  - name: Linseneintopf
+    ingredients:
+      - 500g Linsen
+      - 400g Kartoffeln
+      - 3 Karotten
+
+defaults:
+  default-amount:
+    count: 1
+  locations:
+    - Supermarkt
